@@ -12,6 +12,16 @@
     left:41%;
 
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #img1{
+        height: 5vh;
+        width: 8vw;
+        position: absolute;
+        z-index: 31;
+        top: 5%;
+    left:31%;
+    }
+}
 
 #an1{
     color: white;
@@ -108,17 +118,32 @@
     top:85vh;
     right: 23%;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #i2{
+        left:95%;
+    }
+}
 #i3{
     position: absolute;
     z-index: 3;
     top: 24%;
     right:22%;
 }
-#i4{
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #i3{
+       top: 20%;
+        left:98%;
+    }
+}
+
+#i44{
     position: absolute;
     z-index: 5;
     top: 10v;
     left:41%;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+
 }
 #i5{
     position: absolute;
@@ -131,6 +156,11 @@
     z-index: 7;
     bottom: 18%;
     right:40%;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #i6{
+        left: 70%;
+    }
 }
 #i7{
     position: absolute;
@@ -154,6 +184,12 @@
     left: 53%;
     font-size: 25px;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #p2,#p3{
+        left: 72%;
+        font-size: 18px;
+    }
+}
 #p4{
     position: absolute;
     z-index: 10;
@@ -161,6 +197,12 @@
     left: 39%;
     color: #b1beb9;
     font-size: 16px;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #p4{
+        font-size: 12px;
+        left: 65%;
+    }
 }
 #p5{
     position: absolute;
@@ -178,6 +220,12 @@
     bottom: 34%;
     left:25%;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #p5,#p6{
+        font-size: 18px;
+        left: 40%;
+    }
+}
 #p7{
     position: absolute;
     z-index: 12;
@@ -186,6 +234,12 @@
     font-size: 16px;
     bottom: 25%;
     left: 20%;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #p7{
+        font-size: 13px;
+        left: 35%;
+    }
 }
 #but1{
     position: absolute;
@@ -198,6 +252,12 @@
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);    
     border: none;  
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #but1{
+        left: 80%;
+    }
+}
+
 #put1{
     position: absolute;
     z-index: 14; 
@@ -208,6 +268,11 @@
     color: white;
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);    
     border: none;     
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #put1{
+        left: 50%;
+    }
 }
 
 
@@ -228,6 +293,11 @@
     height: 350px;
     width: 350px;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #ia10{
+        left: 49%;
+    }
+}
  #ia4{
     position: absolute;
     z-index: 25;
@@ -244,12 +314,23 @@
     height: 350px;
     width: 350px;
 } 
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #ia4,#ia5{
+        left: 31%;
+    }
+}
 #pb1{
     position: absolute;
     z-index: 23;
     top: 118%; 
     right:13vw;
     color: #b1beb9;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #pb1,#pb2{
+        left: 98%;
+        width: 450px;
+    }
 }
 #pb2{
     position: absolute;
@@ -269,6 +350,11 @@
     z-index: 22;
     top: 160%;
     left: 51%;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #ia2,#ia3{
+        left: 80%;
+    }
 }
 
 #sp1{
@@ -302,11 +388,21 @@
     top: 135vh;
     text-align: center;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #lg2{
+        left: 58%;
+    }
+}
 #lg3{
     position: absolute;
     z-index: 38;
     left: 29vw;
     top: 165vh;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #lg1,#lg3{
+        left: 45%;
+    }
 }
 i{
     color: white;
@@ -352,6 +448,11 @@ i{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* font-weight: 800; */
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #p1{
+        left: 65%;
+    }
+}
 
 #mm1{
     /* background: url("./textarea-img\ \(1\).png"); */
@@ -385,11 +486,22 @@ input{
     left:54.3vw;
     top: 252vh;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #ti2{
+        left:85%;
+    }
+}
+
 #ti3{
     position: absolute;
     z-index: 35;
     left:46vw;
     top: 233vh;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #ti3{
+        left: 72%;
+    }
 }
 #ti4{
     position: absolute;
@@ -403,6 +515,14 @@ input{
     left:37.7vw;
     top: 213vh;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #ti4{
+        left: 65%;
+    }
+    #ti5{
+        left: 59%;
+    }
+}
 iframe{
     position:absolute;
     z-index: -1;
@@ -411,6 +531,7 @@ iframe{
     height: 450px;
     width: 650px;
 }
+
 #www{
     position: absolute;
     z-index: 37;
@@ -419,6 +540,11 @@ iframe{
     left: 66%;
     font-size: 18px;
     color: white;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #www{
+        left: 99%;
+    }
 }
 
 
@@ -435,6 +561,11 @@ iframe{
     font-size: 15px;
     border-style: hidden;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #message{
+        left: 85%;
+    }
+}
 #name{
     position: absolute;
     z-index: 40;
@@ -447,6 +578,11 @@ iframe{
     border: 0%;
     font-size: 15px;
     border-style: hidden;
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #name{
+        left: 70%;
+    }
 }
 #email{
     position: absolute;
@@ -461,6 +597,11 @@ iframe{
     font-size: 15px;
     border-style: hidden;
 }
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    #email{
+        left:75vw;
+    }
+}
 footer{
     height: 110px;
     width:98.9vw;
@@ -473,4 +614,13 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: large; 
+}
+@media screen and (min-device-width: 520px) and (max-device-width: 780px) {
+    footer{
+        width:154.9vw; 
+        color: rgb(226, 131, 131);
+        background-color: rgb(91, 93, 91);  
+
+        
+    }
 }
